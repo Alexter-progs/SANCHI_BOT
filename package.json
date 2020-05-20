@@ -7,6 +7,7 @@
     "start": "nodemon --watch ./src/**/* -e ts,tsx --exec ts-node -r dotenv/config ./src/bot.ts"
   },
   "dependencies": {
+    "discord.js": "^12.2.0",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
